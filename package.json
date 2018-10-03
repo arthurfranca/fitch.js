@@ -51,6 +51,7 @@
     "coverage": "nyc report npm test",
     "examples": "node ./examples/index.js",
     "prebuild": "npm run check && npm run clean",
+    "prepare": "npm run build",
     "lint": "eslint src",
     "start": "node ./examples/api/index.js",
     "test": "ava",
